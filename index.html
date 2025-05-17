@@ -1,0 +1,749 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--=============== FAVICON ===============-->
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicons/favicon-16x16.png">
+    <link rel="manifest" href="assets/favicons/site.webmanifest">
+    <link rel="mask-icon" href="assets/favicons/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="assets/favicons/favicon.ico">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-config" content="assets/favicons/browserconfig.xml">
+    <meta name="theme-color" content="#a789d4">
+
+    <!--=============== BOXICONS ===============-->
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+
+    <!--=============== SWIPER CSS ===============-->
+    <link rel="stylesheet" href="swiper-bundle.min.css">
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="styles.css">
+
+    <title> Pujitha's Portfolio </title>
+</head>
+
+<body>
+    <!--=============== HEADER ===============-->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">Pujitha</a>
+
+            <div class="nav__menu">
+                <ul class="nav__list">
+                    <li class="nav__item ">
+                        <a href="#home" class="nav__link">
+                            <i class='bx bx-home'></i>
+                        </a>
+                    </li>
+
+                    <li class="nav__item ">
+                        <a href="#about" class="nav__link">
+                            <i class='bx bx-user'></i>
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#skills" class="nav__link">
+                            <i class='bx bx-book'></i>
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#work" class="nav__link">
+                            <i class='bx bx-briefcase-alt-2'></i>
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__link">
+                            <i class='bx bx-message-square-dots'></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <!--=============== theme change button ===============-->
+            <i class='bx bx-moon change-theme change-theme-button' id="theme-button"></i>
+
+        </nav>
+    </header>
+
+    <!--=============== MAIN ===============-->
+    <main class="main">
+        <!--=============== HOME ===============-->
+        <section class="home section" id="home">
+            <div class="home__container container grid">
+                <div class="home__data">
+                    <span class="home__greeting">Hello, I'm</span>
+                    <h1 class="home__name">Pujitha Nandipati</h1>
+                    <h3 class="home__education">Cyber Security Enthusiast | Python Developer | Web Pentester</h3>
+
+                    <div class="home__button">
+                        <a download="" href="Puji_resume[2][1] (1).pdf" class="button button--ghost">
+                            Download resume
+                        </a>
+
+                        <a href="#about" class="button">About</a>
+                    </div>
+                </div>
+
+                <div class="home__handle">
+                    <img src="WhatsApp Image 2025-05-16 at 11.41.12_a5a03132.jpg" alt="" class="home__img">
+                </div>
+
+                <div class="home__social">
+                    <a href="#" target="_blank" class="home__social-link">
+                        <i class='bx bxl-linkedin'></i>
+                    </a>
+                    <a href="#" target="_blank" class="home__social-link">
+                        <i class='bx bxl-github'></i>
+                    </a>
+                    <a href="#" target="_blank" class="home__social-link">
+                        <i class='bx bxl-dribbble'></i>
+                    </a>
+                </div>
+
+                <a href="#about" class="home__scroll">
+                    <i class='bx bx-mouse home__scroll-icon'></i>
+                    <span class="home__scroll-name">Scroll Down</span>
+                </a>
+            </div>
+        </section>
+
+        <!--=============== ABOUT ===============-->
+        <section class="about section" id="about">
+            <span class="section__subtitle">My Intro</span>
+            <h2 class="section__title">About Me</h2>
+
+            <div class="about__container container grid">
+                <img src="WhatsApp Image 2025-05-15 at 15.14.52_04fec9e6.jpg" alt="" class="about__img">
+
+                <div class="about__data">
+                    <div class="about__info">
+                        <div class="about__box">
+                            <i class='bx bx-award about__icon'></i>
+                            <h3 class="about__title">Experience</h3>
+                            <span class="about__subtitle">fresher</span>
+                        </div>
+                        <div class="about__box">
+                            <i class='bx bx-briefcase-alt about__icon'></i>
+                            <h3 class="about__title">Completed</h3>
+                            <span class="about__subtitle">5+ projects</span> 
+                        </div>
+                        <div class="about__box">
+                            <i class='bx bx-support about__icon'></i>
+                            <h3 class="about__title">Support</h3>
+                            <span class="about__subtitle">Online 24/7</span>
+                        </div>
+                    </div>
+
+                    <p class="about__description">
+                        Frontend Developer.
+                    </p>
+
+                    <a href="#contact" class="button about__button-contact">Contact Me</a>
+                </div>
+            </div>
+        </section>
+
+        <!--=============== SKILLS ===============-->
+         <section class="skills section" id="skills">
+            <span class="section__subtitle">My Abilities</span>
+            <h2 class="section__title">My Experience</h2>
+
+       <div class="skills__container">
+    <div class="skills__content">
+        <h3 class="skills__title">Programming Languages</h3>
+        <div class="skills__box">
+            <div class="skills__group">
+                <div class="skills__data">
+                    <i class='bx bxs-badge-check'></i>
+                    <div>
+                        <span class="skills__name">C</span>
+                    </div>
+                </div>
+                <div class="skills__data">
+                    <i class='bx bxs-badge-check'></i>
+                    <div>
+                        <span class="skills__name">Python</span>
+                    </div>
+                </div>
+                <div class="skills__data">
+                    <i class='bx bxs-badge-check'></i>
+                    <div>
+                        <span class="skills__name">Java</span>
+                    </div>
+                </div>
+                <div class="skills__data">
+                    <i class='bx bxs-badge-check'></i>
+                    <div>
+                        <span class="skills__name">HTML</span>
+                    </div>
+                </div>
+                <div class="skills__data">
+                    <i class='bx bxs-badge-check'></i>
+                    <div>
+                        <span class="skills__name">CSS</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="skills__content">
+        <h3 class="skills__title">Libraries/Frameworks</h3>
+        <div class="skills__box">
+            <div class="skills__group">
+                <div class="skills__data">
+                    <i class='bx bxs-badge-check'></i>
+                    <div>
+                        <span class="skills__name">Numpy</span>
+                    </div>
+                </div>
+                <div class="skills__data">
+                    <i class='bx bxs-badge-check'></i>
+                    <div>
+                        <span class="skills__name">Pandas</span>
+                    </div>
+                </div>
+                <div class="skills__data">
+                    <i class='bx bxs-badge-check'></i>
+                    <div>
+                        <span class="skills__name">Tensorflow</span>
+                    </div>
+                </div>
+                <div class="skills__data">
+                    <i class='bx bxs-badge-check'></i>
+                    <div>
+                        <span class="skills__name">Matplotlib</span>
+                    </div>
+                </div>
+                <div class="skills__data">
+                    <i class='bx bxs-badge-check'></i>
+                    <div>
+                        <span class="skills__name">Metasploit</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="skills__content">
+        <h3 class="skills__title">Tools & Platforms</h3>
+        <div class="skills__box">
+            <div class="skills__group">
+                <div class="skills__data">
+                    <i class='bx bxs-badge-check'></i>
+                    <div>
+                        <span class="skills__name">Github</span>
+                    </div>
+                </div>
+                <div class="skills__data">
+                    <i class='bx bxs-badge-check'></i>
+                    <div>
+                        <span class="skills__name">VS code</span>
+                    </div>
+                </div>
+                <div class="skills__data">
+                    <i class='bx bxs-badge-check'></i>
+                    <div>
+                        <span class="skills__name">Power BI</span>
+                    </div>
+                </div>
+                <div class="skills__data">
+                    <i class='bx bxs-badge-check'></i>
+                    <div>
+                        <span class="skills__name">Wireshark</span>
+                    </div>
+                </div>
+                <div class="skills__data">
+                    <i class='bx bxs-badge-check'></i>
+                    <div>
+                        <span class="skills__name">Nessus</span>
+                    </div>
+                </div>
+                <div class="skills__data">
+                    <i class='bx bxs-badge-check'></i>
+                    <div>
+                        <span class="skills__name">Burpsuit</span>
+                    </div>
+                </div>
+                <div class="skills__data">
+                    <i class='bx bxs-badge-check'></i>
+                    <div>
+                        <span class="skills__name">Linux</span>
+                    </div>
+                </div>
+                <div class="skills__data">
+                    <i class='bx bxs-badge-check'></i>
+                    <div>
+                        <span class="skills__name">MS word</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="skills__content">
+        <h3 class="skills__title">Databases</h3>
+        <div class="skills__box">
+            <div class="skills__group">
+                <div class="skills__data">
+                    <i class='bx bxs-badge-check'></i>
+                    <div>
+                        <span class="skills__name">SQL</span>
+                    </div>
+                </div>
+                <div class="skills__data">
+                    <i class='bx bxs-badge-check'></i>
+                    <div>
+                        <span class="skills__name">Firebase</span>
+                    </div>
+                </div>
+                <div class="skills__data">
+                    <i class='bx bxs-badge-check'></i>
+                    <div>
+                        <span class="skills__name">MongoDB</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+        <!--=============== SERVICES ===============-->
+      
+
+<section class="services section">
+    <span class="section__subtitle">My Services</span>
+    <h2 class="section__title">What I Offer</h2>
+
+    <div class="services__container container grid">
+        <div class="services__card">
+            <div class="serv">
+                <h3 class="services__title">Web <br> Development</h3>
+                <span class="services__button">
+                    See More <i class='bx bx-right-arrow services__icon'></i>
+                </span>
+            </div>
+
+            <div class="services__modal">
+                <div class="services__modal-content">
+                    <i class='bx bx-x services__modal-close'></i>
+                    <h3 class="services__modal-title">Web Development</h3>
+                    <p class="services__modal-description">
+                        I design and develop responsive websites, focusing on user-friendly and functional interfaces using modern web technologies.
+                    </p>
+                    <ul class="services__modal-list">
+                        <li class="services__modal-item">
+                            <i class='bx bx-check-circle'></i>
+                            <p class="services__modal-info">
+                                Proficient in HTML, CSS, and JavaScript.
+                            </p>
+                        </li>
+                        <li class="services__modal-item">
+                            <i class='bx bx-check-circle'></i>
+                            <p class="services__modal-info">
+                                Experience in building responsive layouts.
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="services__card">
+            <h3 class="services__title">Cybersecurity <br> & VAPT</h3>
+            <span class="services__button">
+                See More <i class='bx bx-right-arrow services__icon'></i>
+            </span>
+
+            <div class="services__modal">
+                <div class="services__modal-content">
+                    <i class='bx bx-x services__modal-close'></i>
+                    <h3 class="services__modal-title">Cybersecurity & VAPT</h3>
+                    <p class="services__modal-description">
+                        I conduct web application vulnerability assessments and penetration testing, identifying and reporting security flaws based on OWASP Top 10 guidelines.
+                    </p>
+                    <ul class="services__modal-list">
+                        <li class="services__modal-item">
+                            <i class='bx bx-check-circle'></i>
+                            <p class="services__modal-info">
+                                Experienced in identifying vulnerabilities like SQL Injection and XSS.
+                            </p>
+                        </li>
+                        <li class="services__modal-item">
+                            <i class='bx bx-check-circle'></i>
+                            <p class="services__modal-info">
+                                Skilled in using tools such as Burp Suite, OWASP ZAP, and Nmap.
+                            </p>
+                        </li>
+                        <li class="services__modal-item">
+                            <i class='bx bx-check-circle'></i>
+                            <p class="services__modal-info">
+                                Knowledge of secure coding practices.
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="services__card">
+            <h3 class="services__title">Scripting & <br> Automation</h3>
+            <span class="services__button">
+                See More <i class='bx bx-right-arrow services__icon'></i>
+            </span>
+
+            <div class="services__modal">
+                <div class="services__modal-content">
+                    <i class='bx bx-x services__modal-close'></i>
+                    <h3 class="services__modal-title">Scripting & Automation</h3>
+                    <p class="services__modal-description">
+                        I develop Python scripts for automation tasks and network auditing, creating efficient solutions for various needs.
+                    </p>
+                    <ul class="services__modal-list">
+                        <li class="services__modal-item">
+                            <i class='bx bx-check-circle'></i>
+                            <p class="services__modal-info">
+                                Experienced in Python programming.
+                            </p>
+                        </li>
+                        <li class="services__modal-item">
+                            <i class='bx bx-check-circle'></i>
+                            <p class="services__modal-info">
+                                Developed a Port Scanner using Python.
+                            </p>
+                        </li>
+                        <li class="services__modal-item">
+                            <i class='bx bx-check-circle'></i>
+                            <p class="services__modal-info">
+                                Familiar with libraries like socket, ipaddress, and argparse.
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+   <!--=============== WORK ===============-->
+    
+
+<section class="work section" id="work">
+    <span class="section__subtitle">My Recent Work</span>
+    <h2 class="section__title">Projects</h2>
+
+    <div class="work__filters">
+        <span class="work__item active-work" data-filter="all">All</span>
+        <span class="work__item" data-filter=".web">Web</span>
+        <span class="work__item" data-filter=".security">Security</span>
+        <span class="work__item" data-filter=".python">Python</span>
+    </div>
+
+    <div class="work__container container grid">
+        <div class="work__card web">
+            <img src="web-development.jpg" alt="Web Development Project" class="work__img">
+            <h3 class="work__title">Web Development Project</h3>
+            <p class="work__description">
+                Designed and developed a responsive e-commerce website.
+            </p>
+            <span class="work__button work__details-button" data-modal="web-project-details">
+                See More Details <i class='bx bx-right-arrow work__icon'></i>
+            </span>
+        </div>
+
+        <div class="work__card security">
+            <img src="what-is-vapt.jpg" alt="VAPT Project" class="work__img">
+            <h3 class="work__title">VAPT Project</h3>
+            <p class="work__description">
+                Conducted vulnerability assessments and penetration testing.
+            </p>
+            <span class="work__button work__details-button" data-modal="vapt-project-details">
+                See More Details <i class='bx bx-right-arrow work__icon'></i>
+            </span>
+        </div>
+
+        <div class="work__card python">
+            <img src="Port_Scannner.jpg" alt="Python Port Scanner" class="work__img">
+            <h3 class="work__title">Python Port Scanner</h3>
+            <p class="work__description">
+                Developed a Python-based port scanner tool.
+            </p>
+            <span class="work__button work__details-button" data-modal="python-project-details">
+    See More Details <i class='bx bx-right-arrow work__icon'></i>
+</span>
+        </div>
+    </div>
+
+    <div class="work__modal" id="web-project-details">
+        <div class="work__modal-content">
+            <i class='bx bx-x work__modal-close'></i>
+            <h3 class="work__modal-title">Web Development Project Details</h3>
+            <p class="work__modal-description">
+                This project involved the creation of a fully responsive e-commerce platform designed to facilitate online sales for a small business. Key features include user authentication, product catalog browsing, a shopping cart, and a secure checkout process. The website was built using HTML, CSS with Flexbox and Grid for layout, and Vanilla JavaScript for interactive elements.
+            </p>
+            <ul class="work__modal-list">
+                <li class="work__modal-item">
+                    <i class='bx bx-check-circle'></i>
+                    <p class="work__modal-info">Implemented user registration and login functionality.</p>
+                </li>
+                <li class="work__modal-item">
+                    <i class='bx bx-check-circle'></i>
+                    <p class="work__modal-info">Developed a dynamic product catalog with filtering and search options.</p>
+                </li>
+                <li class="work__modal-item">
+                    <i class='bx bx-check-circle'></i>
+                    <p class="work__modal-info">Integrated a fully functional system.</p>
+                </li>
+                <li class="work__modal-item">
+                    <i class='bx bx-check-circle'></i>
+                    <p class="work__modal-info">Ensured a responsive design adapting to various screen sizes.</p>
+                </li>
+                </ul>
+            <a href="https://github.com/PujithaNandipati/OCTANET_MARCH" target="_blank" class="work__modal-link">
+                <i class='bx bxl-github'></i> GitHub
+            </a>
+            </div>
+    </div>
+
+    <div class="work__modal" id="vapt-project-details">
+        <div class="work__modal-content">
+            <i class='bx bx-x work__modal-close'></i>
+            <h3 class="work__modal-title">Cybersecurity & VAPT Details</h3>
+            <p class="work__modal-description">
+                As part of a virtual internship, I conducted a comprehensive Vulnerability Assessment and Penetration Testing (VAPT) engagement on a sample web application. The primary objectives were to identify potential security weaknesses and provide recommendations for remediation. The assessment followed the OWASP Top 10 guidelines, focusing on common web application vulnerabilities. Tools such as Burp Suite for intercepting and manipulating HTTP requests and Nmap for network scanning were utilized.
+            </p>
+            <ul class="work__modal-list">
+                <li class="work__modal-item">
+                    <i class='bx bx-check-circle'></i>
+                    <p class="work__modal-info">Identified and analyzed potential SQL Injection vulnerabilities.</p>
+                </li>
+                <li class="work__modal-item">
+                    <i class='bx bx-check-circle'></i>
+                    <p class="work__modal-info">Examined the application for Cross-Site Scripting (XSS) flaws.</p>
+                </li>
+                <li class="work__modal-item">
+                    <i class='bx bx-check-circle'></i>
+                    <p class="work__modal-info">Utilized Burp Suite for manual and automated vulnerability scanning.</p>
+                </li>
+                <li class="work__modal-item">
+                    <i class='bx bx-check-circle'></i>
+                    <p class="work__modal-info">Documented findings and provided recommendations based on security best practices.</p>
+                </li>
+                </ul>
+            <a href="https://github.com/PujithaNandipati/Sql-Injection-Detection" target="_blank" class="work__modal-link">
+                <i class='bx bxl-github'></i> GitHub
+            </a>
+            </div>
+    </div>
+
+    <div class="work__modal" id="python-project-details">
+        <div class="work__modal-content">
+            <i class='bx bx-x work__modal-close'></i>
+            <h3 class="work__modal-title">Python Port Scanner Details</h3>
+            <p class="work__modal-description">
+                This Python-based port scanner tool was developed to efficiently identify open network ports on a specified target host or IP address. The tool leverages the `socket` library to establish connections and determine the status of different ports. The `ipaddress` module is used for validating IP address inputs, and basic multi-threading using the `threading` library was implemented to improve scanning speed by concurrently checking multiple ports.
+            </p>
+            <ul class="work__modal-list">
+                <li class="work__modal-item">
+                    <i class='bx bx-check-circle'></i>
+                    <p class="work__modal-info">Scans a range of TCP ports on a given IP address or hostname.</p>
+                </li>
+                <li class="work__modal-item">
+                    <i class='bx bx-check-circle'></i>
+                    <p class="work__modal-info">Utilizes the `socket` library for network connection attempts.</p>
+                </li>
+                <li class="work__modal-item">
+                    <i class='bx bx-check-circle'></i>
+                    <p class="work__modal-info">Includes basic multi-threading for faster scanning.</p>
+                </li>
+                <li class="work__modal-item">
+                    <i class='bx bx-check-circle'></i>
+                    <p class="work__modal-info">Provides clear output indicating open and closed ports.</p>
+                </li>
+                </ul>
+            <a href="https://github.com/PujithaNandipati/Port-Scanner" target="_blank" class="work__modal-link">
+                <i class='bx bxl-github'></i> GitHub
+            </a>
+            </div>
+    </div>
+</section>
+        <!--=============== TESTIMONIALS ===============-->
+     
+
+      <section class="testimonials section">
+    <span class="section__subtitle">What others say</span>
+    <h2 class="section__title">Feedback</h2>
+
+    <div class="testimonials__container container grid">
+        <div class="testimonial__card">
+            <h3 class="testimonial__name">Sashank-Octanet Pvt Lmd</h3>
+            <p class="testimonial__text">
+                "Pujitha was a valuable asset to our group project, always willing to help and contributed strong technical skills."
+            </p>
+        </div>
+
+        <div class="testimonial__card">
+            <h3 class="testimonial__name">Sidharth -Supraja Technologies</h3>
+            <p class="testimonial__text">
+                "During her internship, Pujitha showed great enthusiasm and a quick ability to learn new concepts."
+            </p>
+        </div>
+
+        </div>
+
+    </section>
+        <!--=============== CONTACT ===============-->
+        <section class="contact section" id="contact">
+            <sapn class="section__subtitle">Get in touch</sapn>
+            <h3 class="section__title">Contact Me</h3>
+
+            <div class="contact__container container grid">
+                <div class="contact__content">
+                    <h3 class="contact__title contact__title-info">Talk to me</h3>
+
+                    <div class="contact__info">
+                        <div class="contact__card">
+                            <i class='bx bx-mail-send contact__card-icon'></i>
+                            <h3 class="contact__card-title">Email</h3>
+                            <span class="contact__card-data">pujitha1125@gmail.com</span>
+
+                            <a href="mailto:example@domain.com" target="_blank" class="contact__button">
+                                Write Me <i class='bx bx-right-arrow contact__button-icon'></i>
+                            </a>
+                        </div>
+
+                        <div class="contact__card">
+                            <i class='bx bxl-whatsapp contact__card-icon'></i>
+                            <h3 class="contact__card-title">Whatsapp</h3>
+                            <span class="contact__card-data">8125918361</span>
+
+                            <a href="https://api.whatsapp.com/send?phone=+918125918362&text=Hey there!" target="_blank"
+                                class="contact__button">
+                                Write Me <i class='bx bx-right-arrow contact__button-icon'></i>
+                            </a>
+                        </div>
+
+                        <div class="contact__card">
+                            <i class='bx bxl-twitter contact__card-icon'></i>
+                            <h3 class="contact__card-title">Twitter</h3>
+                            <span class="contact__card-data">usertw</span>
+
+                            <a href="https://twitter.com/usertw" target="_blank" class="contact__button">
+                                Write Me <i class='bx bx-right-arrow contact__button-icon'></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact__content">
+                    <h3 class="contact__title contact__title-form">Write Me your Message</h3>
+
+                    <form action="" class="contact__form">
+                        <div class="contact__form-div">
+                            <label for="" class="contact__form-tag">Name</label>
+                            <input type="text" placeholder="Enter name" class="contact__form-input">
+                        </div>
+
+                        <div class="contact__form-div">
+                            <label for="" class="contact__form-tag">Mail</label>
+                            <input type="text" placeholder="Enter email" class="contact__form-input">
+                        </div>
+
+                        <div class="contact__form-div contact__form-area">
+                            <label for="" class="contact__form-tag">Message</label>
+                            <textarea name="" id="" cols="30" rows="10" placeholder="Write your Message"
+                                class="contact__form-input "></textarea>
+                        </div>
+
+
+                        <button class="button">
+                            Send Message
+                        </button>
+                    </form>
+
+                </div>
+
+        </section>
+    </main>
+
+    <!--=============== FOOTER ===============-->
+    <footer class="footer">
+        <div class="footer__container container">
+            <h1 class="footer__title">Pujitha</h1>
+
+            <ul class="footer__list">
+
+                <li class="footer__item">
+                    <a href="#" class="footer__link">Home</a>
+                </li>
+                <li class="footer__item">
+                    <a href="#about" class="footer__link">About</a>
+                </li>
+                <li class="footer__item">
+                    <a href="#skills" class="footer__link">Skills</a>
+                </li>
+                <li class="footer__item">
+                    <a href="#work" class="footer__link">Work</a>
+                </li>
+                <li class="footer__item">
+                    <a href="#contact" class="footer__link">Contact</a>
+                </li>
+            </ul>
+
+           <ul class="footer__social">
+    <li class="footer__social-item">
+        <a href="YOUR_FACEBOOK_LINK" target="_blank" class="footer__social-link">
+            <i class='bx bxl-facebook footer__social-icon'></i>
+        </a>
+    </li>
+    <li class="footer__social-item">
+        <a href="YOUR_TWITTER_LINK" target="_blank" class="footer__social-link">
+            <i class='bx bxl-twitter footer__social-icon'></i>
+        </a>
+    </li>
+    <li class="footer__social-item">
+        <a href="https://www.linkedin.com/in/pujitha-nandipati-254091304?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" class="footer__social-link">
+            <i class='bx bxl-linkedin footer__social-icon'></i>
+        </a>
+    </li>
+    <li class="footer__social-item">
+        <a href="YOUR_INSTAGRAM_LINK" target="_blank" class="footer__social-link">
+            <i class='bx bxl-instagram footer__social-icon'></i>
+        </a>
+    </li>
+    <li class="footer__social-item">
+        <a href="mailto:pujithanandipati@gmail.com" target="_blank" class="footer__social-link">
+            <i class='bx bx-envelope footer__social-icon'></i>
+        </a>
+    </li>
+    </ul>
+
+            <span class="footer__copy">
+                &#169;  All rights reserved.
+            </span>
+        </div>
+    </footer>
+
+    <!--=============== SCROLLREVEAL ===============-->
+
+    <!-- <script src="assets/js/scrollreveal.min.js"></script> -->
+    <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+
+    <!--=============== SWIPER JS ===============-->
+    <script src="swiper-bundle.min.js"></script>
+
+    <!--=============== MIXITUP FILTER ===============-->
+    <script src="mixitup.min.js"></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="main.js"></script>
+</body>
+
+</html>
